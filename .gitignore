@@ -1,0 +1,21 @@
+# Editor, OS, and build cruft
+_extensions/
+.DS_Store
+.vscode/
+.luarc.json
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Secrets and academic integrity: never commit
+quizzes/
+_archive/
+**/api_keys_private.yaml
+**/*_private.yaml
+
+# Blank problem-set PDFs are not distributed
+problemsets/*/pset*_blank.pdf
+
+# To withhold a solution until after its deadline, uncomment its line:
+# activity_solutions/lec02_activity.ipynb
+# activity_solutions/lec03_activity.ipynb

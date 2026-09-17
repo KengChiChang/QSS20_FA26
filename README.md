@@ -36,7 +36,7 @@ you start a problem set.
 Before you edit a notebook from this repository, copy it and edit the copy:
 
 ```bash
-cp problemsets/ps0/ps0.ipynb problemsets/ps0/ps0_mywork.ipynb
+cp problemsets/ps0/ps0_blank.ipynb problemsets/ps0/ps0_mywork.ipynb
 ```
 
 Edit the copy. The original stays unchanged, so `git pull` always succeeds. If a

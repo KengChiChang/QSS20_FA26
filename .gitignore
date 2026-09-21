@@ -19,3 +19,6 @@ problemsets/*/pset*_blank.pdf
 # To withhold a solution until after its deadline, uncomment its line:
 # activity_solutions/lec02_activity.ipynb
 # activity_solutions/lec03_activity.ipynb
+
+# Shell practice folder from lecture 2
+scratch/

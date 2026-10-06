@@ -20,13 +20,21 @@ problemsets/*/pset*_blank.pdf
 # activity_solutions/lec02_activity.ipynb
 # activity_solutions/lec03_activity.ipynb
 # activity_solutions/lec04_activity.ipynb
-activity_solutions/lec05_activity.ipynb
-activity_solutions/lec06_activity.ipynb
+# activity_solutions/lec05_activity.ipynb
+# activity_solutions/lec06_activity.ipynb
 activity_solutions/lec07_activity.ipynb
 # activity_solutions/lec08_activity.ipynb
 
 
-lectures/lec07/
+# lectures/lec07/
+lectures/lec08/
+lectures/lec09/
+lectures/lec10/
+lectures/lec11/
+lectures/lec12/
+lectures/lec13/
+lectures/lec14/
+lectures/lec15/
 
 
 # Shell practice folder from lecture 2

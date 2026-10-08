@@ -1,0 +1,83 @@
+{
+ "source": "MLB Stats API, https://statsapi.mlb.com",
+ "terms": "MLB Advanced Media; individual, non-commercial use.",
+ "files": [
+  {
+   "file": "teams-hitting-2015.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2015&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:26Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2016.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2016&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:27Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2017.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2017&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:28Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2018.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2018&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:29Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2019.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2019&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:31Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2020.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2020&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:32Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2021.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2021&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:33Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2022.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2022&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:34Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2023.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2023&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:36Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2024.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2024&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:37Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "teams-hitting-2025.json",
+   "url": "https://statsapi.mlb.com/api/v1/teams/stats?season=2025&group=hitting&stats=season&sportIds=1",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:38Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  }
+ ]
+}

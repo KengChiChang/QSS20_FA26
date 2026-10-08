@@ -12,6 +12,8 @@ quizzes/
 _archive/
 **/api_keys_private.yaml
 **/*_private.yaml
+# API keys (lecture 8). Copy .env.example to .env; .env.example stays tracked.
+.env
 
 # Blank problem-set PDFs are not distributed
 problemsets/*/pset*_blank.pdf
@@ -23,7 +25,9 @@ problemsets/*/pset*_blank.pdf
 # activity_solutions/lec05_activity.ipynb
 # activity_solutions/lec06_activity.ipynb
 activity_solutions/lec07_activity.ipynb
-# activity_solutions/lec08_activity.ipynb
+activity_solutions/lec08_activity.ipynb
+activity_solutions/lec09_activity.ipynb
+activity_solutions/lec10_activity.ipynb
 
 
 # lectures/lec07/
@@ -39,3 +43,15 @@ lectures/lec15/
 
 # Shell practice folder from lecture 2
 scratch/
+
+# Lectures 8 to 10: live API and web responses, and the local DuckDB file.
+# The lectures read the saved snapshots in data/raw/ instead.
+data/live/
+data/derived/*.duckdb
+data/derived/*.duckdb.wal
+data/raw/quotes
+data/raw/wikipedia/
+data/raw/nyc/persons-killed-page-*.json
+data/raw/nyc/fatal-crash-vehicles-batch-*.json
+data/derived/us_traffic_deaths.csv
+data/derived/nyc_boroughs.csv

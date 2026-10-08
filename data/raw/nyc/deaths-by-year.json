@@ -1,0 +1,15 @@
+[{"year":"2012","crashes":"100545","killed":"137","pedestrians":"72","cyclists":"6","motorists":"59"}
+,{"year":"2013","crashes":"203742","killed":"297","pedestrians":"176","cyclists":"11","motorists":"110"}
+,{"year":"2014","crashes":"206046","killed":"262","pedestrians":"133","cyclists":"20","motorists":"109"}
+,{"year":"2015","crashes":"217708","killed":"243","pedestrians":"133","cyclists":"15","motorists":"95"}
+,{"year":"2016","crashes":"229833","killed":"246","pedestrians":"149","cyclists":"18","motorists":"72"}
+,{"year":"2017","crashes":"231007","killed":"256","pedestrians":"127","cyclists":"27","motorists":"107"}
+,{"year":"2018","crashes":"231564","killed":"231","pedestrians":"123","cyclists":"10","motorists":"98"}
+,{"year":"2019","crashes":"211486","killed":"244","pedestrians":"131","cyclists":"31","motorists":"82"}
+,{"year":"2020","crashes":"112918","killed":"269","pedestrians":"101","cyclists":"29","motorists":"139"}
+,{"year":"2021","crashes":"110558","killed":"297","pedestrians":"132","cyclists":"19","motorists":"134"}
+,{"year":"2022","crashes":"103887","killed":"290","pedestrians":"135","cyclists":"19","motorists":"116"}
+,{"year":"2023","crashes":"96607","killed":"280","pedestrians":"107","cyclists":"31","motorists":"123"}
+,{"year":"2024","crashes":"91316","killed":"268","pedestrians":"124","cyclists":"24","motorists":"111"}
+,{"year":"2025","crashes":"85546","killed":"229","pedestrians":"119","cyclists":"23","motorists":"81"}
+,{"year":"2026","crashes":"36424","killed":"68","pedestrians":"43","cyclists":"11","motorists":"30"}]

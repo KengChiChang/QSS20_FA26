@@ -1,0 +1,20 @@
+{
+ "source": "PokeAPI, https://pokeapi.co",
+ "terms": "Free, no key; the site asks users to cache responses.",
+ "files": [
+  {
+   "file": "pikachu.json",
+   "url": "https://pokeapi.co/api/v2/pokemon/pikachu",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:13Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "type-water.json",
+   "url": "https://pokeapi.co/api/v2/type/water",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:05:14Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  }
+ ]
+}

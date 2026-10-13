@@ -1,0 +1,20 @@
+{
+ "source": "Quotes to Scrape, https://quotes.toscrape.com",
+ "terms": "A sandbox that Zyte publishes for scraping practice.",
+ "files": [
+  {
+   "file": "page-1.html",
+   "url": "https://quotes.toscrape.com/page/1/",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:22:34Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "robots.txt",
+   "url": "https://quotes.toscrape.com/robots.txt",
+   "status": 404,
+   "retrieved_at_utc": "2026-10-08T00:22:35Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  }
+ ]
+}

@@ -49,9 +49,9 @@ scratch/
 data/live/
 data/derived/*.duckdb
 data/derived/*.duckdb.wal
-data/raw/quotes
-data/raw/wikipedia/
-data/raw/nyc/persons-killed-page-*.json
-data/raw/nyc/fatal-crash-vehicles-batch-*.json
+# data/raw/quotes
+# data/raw/wikipedia/
+# data/raw/nyc/persons-killed-page-*.json
+# data/raw/nyc/fatal-crash-vehicles-batch-*.json
 data/derived/us_traffic_deaths.csv
 data/derived/nyc_boroughs.csv

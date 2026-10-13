@@ -1,0 +1,34 @@
+{
+ "source": "Wikipedia, https://en.wikipedia.org",
+ "terms": "Text under CC BY-SA 4.0; Wikimedia asks automated clients to send a User-Agent with contact information.",
+ "files": [
+  {
+   "file": "us-traffic-deaths.html",
+   "url": "https://en.wikipedia.org/wiki/Motor_vehicle_fatality_rate_in_U.S._by_year",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:22:29Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "nyc-boroughs.html",
+   "url": "https://en.wikipedia.org/wiki/Boroughs_of_New_York_City",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:22:30Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "vision-zero.html",
+   "url": "https://en.wikipedia.org/wiki/Vision_Zero",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:22:32Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  },
+  {
+   "file": "robots.txt",
+   "url": "https://en.wikipedia.org/robots.txt",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-08T00:22:33Z",
+   "user_agent": "QSS20-course-materials (instructor contact removed)"
+  }
+ ]
+}

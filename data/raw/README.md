@@ -10,6 +10,7 @@ responses and web pages saved for lectures 8 to 10; see the second table below.
 |---|---|---|
 | `congress.csv` | one member of the House, or a president, in one Congress (80th–112th), with DW-NOMINATE scores | lectures 4 to 6 |
 | `federalist/` | one Federalist essay per text file | lectures 2 and 3 |
+| `face.csv` | one US Senate race, 2000 to 2006: winner, loser, parties, votes, and the share of experiment subjects who judged each candidate the more competent face (Todorov et al. 2005) | lecture 13 |
 | `FLVoters.csv` | one registered Florida voter: surname, county, voting district, age, gender, race | lectures 6 and 7 |
 | `names.csv` | one surname from the 2000 Census list of surnames held by at least 100 people, with the percentage of people in each group | lecture 7 |
 | `FLCensusVTD.csv` | one Florida voting district (county, VTD), with its population and the share of residents in each group | lecture 7 |
@@ -45,17 +46,3 @@ Lecture 9 writes two derived tables to `data/derived/`: `us_traffic_deaths.csv`
 and `nyc_boroughs.csv` (one row per borough, 2020 Census population, parsed from
 `wikipedia/nyc-boroughs.html`). Lecture 10 builds `data/derived/traffic.duckdb`
 from these files; Git ignores it.
-
-## Car photos (lectures 13 and 14, drafts)
-
-Saved on 2026-10-15 (UTC) by `QSS20_book/scripts/fetch_lec11_14_data.py`. The
-folder has a `source-record.json`. The source needed no API key.
-
-| Folder | One row or file is | Source and terms | Used in |
-|---|---|---|---|
-| `cars/` | `images/car-NNNN.jpg`: one photo of a sedan, SUV, pickup, or van, 858 photos of 111 make-model-year classes, resized to 256 pixels on the long side; `cars.csv`: one row per photo with its class name | Stanford Cars (Krause, Stark, Deng, and Fei-Fei 2013), training split, through the Hugging Face copy `tanganke/stanford_cars`. The authors collected the photos from the web for research. No license file came with the copy; check the terms before any public release. | lectures 13 and 14 |
-
-`data/derived/car_embeddings.csv` holds 512 numbers per photo (columns `e0` to
-`e511`), computed once from the saved photos with the CLIP ViT-B/32 model
-(`openai/clip-vit-base-patch32`). Students load this file and do not need
-PyTorch.

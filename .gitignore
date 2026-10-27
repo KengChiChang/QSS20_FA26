@@ -29,7 +29,7 @@ problemsets/*/pset*_blank.pdf
 # activity_solutions/lec09_activity.ipynb
 # activity_solutions/lec10_activity.ipynb
 # activity_solutions/lec11_activity.ipynb
-activity_solutions/lec12_activity.ipynb
+# activity_solutions/lec12_activity.ipynb
 activity_solutions/lec13_activity.ipynb
 activity_solutions/lec14_activity.ipynb
 
@@ -40,7 +40,7 @@ activity_solutions/lec14_activity.ipynb
 # lectures/lec10/
 # lectures/lec11/
 # lectures/lec12/
-lectures/lec13/
+# lectures/lec13/
 lectures/lec14/
 lectures/lec15/
 
@@ -59,10 +59,5 @@ data/derived/*.duckdb.wal
 # data/raw/nyc/fatal-crash-vehicles-batch-*.json
 data/derived/us_traffic_deaths.csv
 data/derived/nyc_boroughs.csv
-
-# Lectures 13 and 14 drafts: Stanford Cars photos, license not yet checked.
-# Keep out of git until the terms allow redistribution.
-data/raw/cars/
-data/derived/car_embeddings.csv
 
 team_matching/

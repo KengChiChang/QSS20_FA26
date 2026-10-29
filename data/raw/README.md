@@ -46,3 +46,29 @@ Lecture 9 writes two derived tables to `data/derived/`: `us_traffic_deaths.csv`
 and `nyc_boroughs.csv` (one row per borough, 2020 Census population, parsed from
 `wikipedia/nyc-boroughs.html`). Lecture 10 builds `data/derived/traffic.duckdb`
 from these files; Git ignores it.
+
+## Voteview roll calls (lecture 14)
+
+`voteview/` holds the Voteview files that lecture 14 and its activity read,
+saved by `QSS20_book/scripts/fetch_lec14_voteview.py` from
+<https://voteview.com/data>: the 80th House (1947 to 1948) files on 2026-10-27 at 17:09 and
+the rest that day at 21:18 (Pacific). `source-record.json` lists each URL, retrieval
+time (UTC), and status. A rerun of the script keeps the files already saved.
+
+| File | One row is | Used in |
+|---|---|---|
+| `HSall_members.csv.gz` | one member in one Congress and chamber (House, Senate, or President), every Congress through the 119th, with party, state, and the DW-NOMINATE positions `nominate_dim1` and `nominate_dim2` | lecture 14 |
+| `H113_votes.csv.gz` to `H119_votes.csv.gz` | one member's vote on one roll call in that House (`cast_code`: 1 to 3 yea, 4 to 6 nay, 7 to 9 present or not voting) | lecture 14 |
+| `H118_rollcalls.csv` | one recorded vote of the 118th House, with its date, bill number, question, result, and description (`vote_desc`; `dtl_desc` is empty for this House) | lecture 14 |
+| `H080_members.csv`, `H080_rollcalls.csv`, `H080_votes.csv.gz` | the same three kinds of row for the 80th House | the lecture 14 activity |
+
+The `.gz` files are gzip-compressed; `pd.read_csv` reads them directly. The votes
+files also carry the president's positions on some roll calls; keep the members
+whose `chamber` is `House`. The 119th House (2025 to 2026) was still in session on
+2026-10-27, so its votes and positions are a snapshot as of that day. The
+DW-NOMINATE scores here are a later release than those in `congress.csv`, which
+ends with the 112th Congress (correlation 0.98 for the 90th House, checked
+2026-10-27). Cite as: Lewis, Jeffrey B., Keith Poole, Howard Rosenthal, Adam
+Boche, Aaron Rudkin, and Luke Sonnet (2026). *Voteview: Congressional Roll-Call
+Votes Database*. <https://voteview.com/>. The site states no data license; its
+data page says the release "is provided without warranty."

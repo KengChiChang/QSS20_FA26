@@ -1,0 +1,79 @@
+{
+ "source": "Voteview, https://voteview.com/data",
+ "citation": "Lewis, Jeffrey B., Keith Poole, Howard Rosenthal, Adam Boche, Aaron Rudkin, and Luke Sonnet (2026). Voteview: Congressional Roll-Call Votes Database. https://voteview.com/",
+ "terms": "No data license is stated on the site; the data page says 'This release is updated weekly and is provided without warranty.' Cast codes: https://voteview.com/articles/data_help_votes",
+ "files": [
+  {
+   "file": "HSall_members.csv.gz",
+   "url": "https://voteview.com/static/data/out/members/HSall_members.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:12Z"
+  },
+  {
+   "file": "H113_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H113_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:15Z"
+  },
+  {
+   "file": "H114_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H114_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:18Z"
+  },
+  {
+   "file": "H115_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H115_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:22Z"
+  },
+  {
+   "file": "H116_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H116_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:25Z"
+  },
+  {
+   "file": "H117_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H117_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:27Z"
+  },
+  {
+   "file": "H118_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H118_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:31Z"
+  },
+  {
+   "file": "H119_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H119_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:33Z"
+  },
+  {
+   "file": "H118_rollcalls.csv",
+   "url": "https://voteview.com/static/data/out/rollcalls/H118_rollcalls.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T04:18:35Z"
+  },
+  {
+   "file": "H080_members.csv",
+   "url": "https://voteview.com/static/data/out/members/H080_members.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T00:09:44Z"
+  },
+  {
+   "file": "H080_rollcalls.csv",
+   "url": "https://voteview.com/static/data/out/rollcalls/H080_rollcalls.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T00:09:45Z"
+  },
+  {
+   "file": "H080_votes.csv.gz",
+   "url": "https://voteview.com/static/data/out/votes/H080_votes.csv",
+   "status": 200,
+   "retrieved_at_utc": "2026-10-28T00:09:47Z"
+  }
+ ]
+}
